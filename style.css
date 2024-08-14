@@ -140,7 +140,7 @@ body{
     font-size: 10px;
 }
 
-
+/* ====================button========= */
 
 .join-now{
     padding:16px 45px;
@@ -207,3 +207,46 @@ body{
     font-size: 14px;
     font-weight: 100;
 }
+
+
+.run-extra{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 25px;
+    padding:30px 0px;
+}
+
+
+.run-content {
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.run-content h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.run-content p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    line-height: 24px;
+}
+.run-joinnow-btn{
+    width: fit-content;
+    padding: 16px 75px;
+    margin-top: 30px;
+}
+.run-image img{
+    width: 380px;
+    height: 370px;
+    object-fit: none;
+    object-position: 68% 32%;
+    border-radius: 15px;
+    float: right;
+    margin-right: 34px;
+}
+
