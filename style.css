@@ -250,3 +250,83 @@ body{
     margin-right: 34px;
 }
 
+
+
+.bmi{
+    padding-top: 100px;
+}
+.bmi-text{
+    padding-left: 190px;
+}
+
+.bmi-text h2{
+    font-size: 48px;
+}
+.bmi-text p{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.474);
+    font-weight: 100;
+}
+
+.bmi-function{
+    background-color: rgba(34, 34, 34, 1);
+    margin-top: 88px;
+    padding:52px 0px;
+}
+
+.bmi-chart > h2{
+    font-size: 28px;
+}
+
+.bmi-table{
+    margin-top: 52px;
+    border-collapse: collapse;
+    border:1px solid rgba(255, 255, 255, 0.1);
+}
+.bmi-table th{
+    color:white;
+}
+.bmi-table tr, th, td{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding:10px 20px;
+    color:rgba(255, 255, 255, 0.514);
+}
+
+
+.bmi-function-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.from-text h2{
+    font-size: 28px;
+}
+.from-text p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.478);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-first-part{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.activity{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input{
+    padding:16px 20px;
+    color:rgba(255, 255, 255, 0.542);
+    background-color: rgba(255, 255, 255, 0.14);
+    border:none;
+    outline: none;
+    border-radius: 10px;
+}
