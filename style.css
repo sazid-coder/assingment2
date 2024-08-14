@@ -393,6 +393,42 @@ body{
 }
 
 
+.pricing-table{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    background:url(images/pngtree-black-and-white-gym-room-with-a-row-of-equipment-image_2911173.jpg) rgba(0, 0, 0, 0.3);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.basic, .pro{
+    padding:50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.basic h2, .pro h2{
+    font-size: 40px;
+}
+.basic ul, .pro ul{
+    margin-bottom: 30px;
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.basic button, .pro button{
+    position: absolute;
+    bottom:0px;
+}
+
+
+
 .top-footer{
     display: grid;
     grid-template-columns:50% repeat(2,1fr);
@@ -433,6 +469,9 @@ body{
     font-weight: 100;
     padding-bottom: 35px;
 }
+
+
+
 
 @media only screen and (max-width: 576px){
 
@@ -479,16 +518,21 @@ body{
         grid-template-columns: repeat(1, 1fr);
     }
     .run-image img {
-        width: 90%;
+        width: 100%;
         border-radius: 15px;
-        float: right;
-        object-fit: cover;
+        float: none;
+        object-fit: contain;
+        height: fit-content;
+
     }
     .run-content {
         margin-left: 0px; 
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 20px;
+    }
+    .run-image {
         padding: 20px;
     }
 
@@ -524,6 +568,13 @@ body{
     .trainers{
         height: 350px;
         background-position: top center
+    }
+    .top-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pricing-table {
+        grid-template-columns: repeat(1, 1fr);
     }
     
 }
